@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    width: 100%;
+    background-color: var(--secondary-bg-color);
+    position: relative;
+    height: 60px;
+    gap: 10px;
+    border-bottom: 3px solid var(--secondary-border-color);
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+header #logo{
+    width: 56px;
+    object-fit: contain;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+header #theme-icon {
+    font-size: 25px;
+}
+
+header nav ul li a:hover{
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+header #sun:hover{
+    cursor: pointer;
+}
