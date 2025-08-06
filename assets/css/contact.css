@@ -13,10 +13,77 @@
     text-align: center;
 }
 
+#contact #send-email{
+    color: var(--prymary-color);
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid var(--text-color);
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+#contact #social-menu{
+    display: flex;
+    flex-direction: row;
+}
+
 #contact i{
     font-size: 1.5rem;
     margin-left: 25px;
 }
 #contact i span{
     margin-left: 5px;
+}
+
+
+#contact #send-email:hover{
+    color: var(--primary-bg-color);
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-bg-color);
+}
+
+/* Celulares pequenos (até 480px) */
+@media (max-width: 480px) {#contact h3{
+    font-size: 2.3rem;
+}
+
+#contact #send-email{
+    width: 250px;
+    font-size: 2rem;
+}
+
+#contact #social-menu{
+    flex-direction: column;
+    gap: 20px;
+}
+#contact i{
+    font-size: 2rem;
+    margin-left: 25px;
+}
+}
+
+/* Celulares médios a grandes (481px até 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+  /* CSS para celulares maiores e alguns Androids */
+}
+
+/* Tablets (768px até 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+#contact h3{
+    font-size: 2.3rem;
+}
+
+#contact #send-email{
+    width: 250px;
+    font-size: 2rem;
+}
+
+#contact i{
+    font-size: 2rem;
+    margin-left: 25px;
+}
 }

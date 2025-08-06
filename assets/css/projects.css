@@ -72,3 +72,99 @@
     background-color: var(--primary-color);
     border: 1px solid var(--primary-bg-color);
 }
+
+
+/* Celulares pequenos (até 480px) */
+@media (max-width: 480px) {
+#projects .project-container{
+    flex-direction: column;
+    padding: 50px 20px;
+}
+
+#projects .project-container img{
+    width: 380px;
+    border-radius: 20px;
+}
+
+#projects #project-2{
+    flex-direction: column;
+}
+
+#projects .project-container .descripition-container{
+    max-width: 470px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#projects .project-container .descripition-container h2{
+    font-size: 3.5rem;
+}
+
+#projects .project-container .descripition-container h3{
+    font-size: 3rem;
+    color: var(--text-color);
+}
+
+#projects .project-container .descripition-container p, #projects .project-container .descripition-container li{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+#projects .project-container .descripition-container a, #projects a{
+    width: 250px;
+    font-size: 2rem;
+}
+}
+
+/* Celulares médios a grandes (481px até 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+  /* CSS para celulares maiores e alguns Androids */
+}
+
+/* Tablets (768px até 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+#projects .project-container{
+    flex-direction: column;
+}
+
+#projects .project-container img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#projects #project-2{
+    flex-direction: column;
+}
+
+#projects .project-container .descripition-container{
+    max-width: 500px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#projects .project-container .descripition-container h2{
+    font-size: 3.5rem;
+}
+
+#projects .project-container .descripition-container h3{
+    font-size: 3rem;
+    color: var(--text-color);
+}
+
+#projects .project-container .descripition-container p, #projects .project-container .descripition-container li{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+#projects .project-container .descripition-container a, #projects a{
+    width: 250px;
+    font-size: 2rem;
+}
+
+}

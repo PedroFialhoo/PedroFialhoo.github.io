@@ -53,3 +53,63 @@
     color: var(--primary-bg-color);    
     background-color: var(--primary-color);
 }
+
+/* Celulares pequenos (até 480px) */
+@media (max-width: 480px) {
+#home .container{
+    margin-left: 0px;
+}
+
+#home .container h1{
+    font-size: 2.7rem;
+    margin-bottom: 10px;
+}
+
+#home .container h3{
+    font-size:2rem;
+    margin-left: 10px;
+    color: var(--text-color);
+}
+
+#home #social-menu a i{
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+#home #see-projects{
+    min-width: 270px;
+    margin-top: 20px;  
+    font-size:1.7rem;
+    margin-left: 10px;
+}
+}
+
+/* Celulares médios a grandes (481px até 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+  /* CSS para celulares maiores e alguns Androids */
+}
+
+/* Tablets (768px até 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+#home .container h1{
+    font-size: 3.2rem;
+    margin-bottom: 5px;
+}
+
+#home .container h3{
+    font-size:2rem;
+    margin-left: 20px;
+    color: var(--text-color);
+}
+
+#home #social-menu a i{
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+#home #see-projects{
+    min-width: 270px;
+    margin-top: 20px;  
+    font-size:2rem;
+}
+}

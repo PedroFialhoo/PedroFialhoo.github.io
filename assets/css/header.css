@@ -41,3 +41,90 @@ header nav ul li a:hover{
 header #sun:hover{
     cursor: pointer;
 }
+
+/* Celulares pequenos (até 480px) */
+@media (max-width: 480px) { 
+header {
+    flex-flow:column-reverse;
+    align-items: flex-start;
+    padding: 2rem;
+    min-height: 230px;
+}
+
+header nav {
+    align-self: center;
+}
+
+header nav ul li {
+    font-size: 1.8rem;
+}
+
+header #logo{
+    width: 70px;
+    position: static;
+    transform: none;
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+header #theme-icon {
+    font-size: 25px;
+}
+}
+
+/* Celulares médios a grandes (481px até 767px) */@media (min-width: 481px) and (max-width: 767px) {
+  header {
+    flex-flow:column-reverse;
+    align-items: flex-start;
+    padding: 2rem;
+    min-height: 220px;
+}
+
+header nav {
+    align-self: center;
+}
+
+header nav ul li {
+    font-size: 2.5rem;
+}
+
+header #logo{
+    width: 70px;
+    position: static;
+    transform: none;
+    align-self: flex-end;
+}
+
+header #theme-icon {
+    font-size: 25px;
+}
+}
+
+/* Tablets (768px até 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    flex-flow:column-reverse;
+    align-items: flex-start;
+    padding: 2rem;
+    min-height: 220px;
+}
+
+header nav {
+    align-self: center;
+}
+
+header nav ul li {
+    font-size: 2.5rem;
+}
+
+header #logo{
+    width: 70px;
+    position: static;
+    transform: none;
+    align-self: flex-end;
+}
+
+header #theme-icon {
+    font-size: 25px;
+}
+}
