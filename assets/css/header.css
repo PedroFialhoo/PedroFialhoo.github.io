@@ -42,8 +42,33 @@ header #sun:hover{
     cursor: pointer;
 }
 
-/* Celulares pequenos (até 480px) */
-@media (max-width: 480px) { 
+@media (max-width: 419px) {
+    header {
+    flex-flow:column-reverse;
+    align-items: flex-start;
+    padding: 1rem;
+    min-height: 230px;
+}
+
+
+header nav ul li {
+    font-size: 1.2rem;
+}
+
+header #logo{
+    width: 70px;
+    position: static;
+    transform: none;
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+header #theme-icon {
+    font-size: 25px;
+}
+}
+
+@media (min-width: 420px) and (max-width: 480px) {
 header {
     flex-flow:column-reverse;
     align-items: flex-start;

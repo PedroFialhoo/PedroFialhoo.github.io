@@ -46,8 +46,28 @@
     border: 1px solid var(--primary-bg-color);
 }
 
-/* Celulares pequenos (até 480px) */
-@media (max-width: 480px) {#contact h3{
+@media (max-width: 419px) {
+    #contact h3{
+    font-size: 2.3rem;
+}
+
+#contact #send-email{
+    width: 250px;
+    font-size: 2rem;
+}
+
+#contact #social-menu{
+    flex-direction: column;
+    gap: 20px;
+}
+#contact i{
+    font-size: 2rem;
+    margin-left: 25px;
+}
+}
+
+@media (min-width: 420px) and (max-width: 480px) {
+#contact h3{
     font-size: 2.3rem;
 }
 

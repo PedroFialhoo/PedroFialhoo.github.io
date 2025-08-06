@@ -64,8 +64,43 @@
 }
 
 
-/* Celulares pequenos (até 480px) */
-@media (max-width: 480px) {
+@media (max-width: 419px) {
+#about #about-me{
+    padding: 50px 20px;
+}
+
+#about #about-me{
+    flex-direction: column;
+}
+
+
+#about #about-me img{
+    width: 300px;
+}
+
+#about #about-me #text-area{
+    max-width: 470px;
+}
+
+#about #about-me #text-area h1{
+    font-size: 3rem;
+}
+
+#about #about-me #text-area h2{
+    font-size: 2.7rem;
+}
+
+#about #about-me #text-area p{
+    font-size: 2.3rem;
+}
+
+#about #about-me #text-area a{
+    width: 280px;
+    font-size: 2rem;
+}
+}
+
+@media (min-width: 420px) and (max-width: 480px) {
 #about #about-me{
     padding: 50px;
 }
